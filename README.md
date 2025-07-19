@@ -58,35 +58,44 @@ ThinkBoard-Mern-Stack-/
 
 ---
 
-## 🚀 Getting Started Locally
-
-### 🔧 Prerequisites
-
-- Node.js
-- npm or yarn
-- MongoDB Atlas account
-
-### 📦 Clone the Repository
+### 📥 Clone the Repository
 
 ```bash
 git clone https://github.com/Snehashis87/ThinkBoard-Mern-Stack-.git
 cd ThinkBoard-Mern-Stack-
+```
 
-⚙️ Setup Backend
+### ⚙️ Setup Backend
+
+```bash
 cd backend
 npm install
+```
 
-Create a .env file inside backend/:
+Create a `.env` file inside `backend/`:
+
+```env
 MONGO_URI=your_mongodb_connection_uri
 PORT=5001
+```
 
 Start the backend server:
-npm start
 
-💻 Setup Frontend:
+```bash
+npm start
+```
+
+### 💻 Setup Frontend
+
+```bash
 cd ../frontend
 npm install
 npm run dev
+```
+
+Your app should now be running locally at `http://localhost:5173` and connected to the backend at `http://localhost:5001`.
+
+---
 
 ## 🌍 Deployment
 
@@ -102,7 +111,7 @@ This app is deployed using **Render**:
 Developed by **Snehashis Mandal**
 
 - GitHub: [@Snehashis87](https://github.com/Snehashis87)
-- LinkedIn: [linkedin.com/in/snehashis-mandal](www.linkedin.com/in/snehashis-mandal-796640284)
+- LinkedIn: [linkedin.com/in/snehashis-mandal](https://www.linkedin.com/in/snehashis-mandal-796640284)
 
 
 
